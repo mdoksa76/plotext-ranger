@@ -9,7 +9,7 @@ Install plotext with:
   
 Put python scripts in some map and export path of that map.
   
-Add ranger config file rifle.conf to ~/.config/ranger/rifle.conf
+Add ranger config file rifle.conf to ~/.config/ranger/rifle.conf.
 
 Why I did this?
 I have Orange Pi Zero with only 2 GB micro sd card. There is not possible to have desktop environment so I needed something for .jpg, .png and .gif.
