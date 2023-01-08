@@ -1,11 +1,13 @@
 # plotext-ranger
 Plotext usage in ranger file manager for viewing graphics files.
 
-Python scripts plotext-ranger-*.py are python scripts for showing graphics files in ranger file manager. They depend on python module plotext.
+Python scripts plotext-ranger-img.py and plotext-ranger-gif.py .py are python scripts for showing graphics files in ranger file manager. They depend on python module plotext.
 
 Install plotext with:
   "pip install plotext" or
   "pip3 install plotext"
+  
+Put python scripts in some map and export path of that map.
   
 Add ranger config file rifle.conf to ~/.config/ranger/rifle.conf
 
