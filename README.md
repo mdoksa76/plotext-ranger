@@ -1,5 +1,5 @@
 # plotext-ranger
-Plotext usage in ranger file manager for viewing graphic files
+Plotext usage in ranger file manager for viewing graphics files.
 
 Python scripts plotext-ranger-*.py are python scripts for showing graphics files in ranger file manager. They depend on python module plotext.
 
