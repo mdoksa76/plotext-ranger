@@ -13,4 +13,4 @@ Add ranger config file rifle.conf to ~/.config/ranger/rifle.conf.
 
 Why I did this?
 I have Orange Pi Zero with only 2 GB micro sd card. There is not possible to have desktop environment so I needed something for .jpg, .png and .gif.
-I used asciiview and cacaview and than I found piccolomo/plotext repository. In many cases plotext is better solution for terminal view of graphics files.
+I used asciiview and cacaview and than I found piccolomo/plotext repository. In many cases plotext is better solution for terminal view of graphics files than asciiview or cacaview.
