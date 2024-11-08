@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+
+import plotext as plt
+import sys
+import os
+from PIL import Image
+
+path=sys.argv[1]
+
+# Open the image to get its original dimensions
+with Image.open(path) as img:
+    original_width, original_height = img.size
+    #print(original_width, original_height)
+# Desired terminal height
+terminal_height = 55
+
+# Calculate the new width to maintain the aspect ratio
+new_width = int(terminal_height*original_width/original_height*1.82)
+
+# Set the plot size
+plt.plotsize(new_width, terminal_height)
+
+plt.image_plot(path)
+plt.show()
+os.system("""bash -c 'read -s -n 1 -p "Press any key to continue ..."'""")
