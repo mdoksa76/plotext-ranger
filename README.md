@@ -1,7 +1,7 @@
 # plotext-ranger
 Plotext usage in ranger file manager for viewing graphics files.
 
-Python scripts piv, piv2 and pivgif pivgif2 are python scripts for showing graphics files in ranger file manager. They depend on python module plotext.
+Python scripts piv2 and pivgif2 are python scripts for showing graphics files in ranger file manager. piv and pivgif are good from command line and inside directory with using only graphic file name, for example: "piv sample.png" or "pivgif sample.gif". piv2 and pivgif2 need absolute path of graphic filefile.
 
 Install plotext with:
   "pip install plotext" or
@@ -14,5 +14,5 @@ Add ranger config file rifle.conf to ~/.config/ranger/rifle.conf. Add piv, piv2,
 Scripts depend on other python modules: sys, os and pillow.
 
 Why I did this?
-I have Orange Pi Zero with only 2 GB micro sd card. There is not possible to have desktop environment so I needed something for .jpg, .png and .gif.
+I have Orange Pi Zero with only 2 GB micro sd card. There is not possible to have desktop environment so I needed something for .jpg, .png, .bmp and .gif.
 I used asciiview and cacaview and than I found piccolomo/plotext repository. In many cases plotext is better solution for terminal view of graphics files than asciiview or cacaview.
