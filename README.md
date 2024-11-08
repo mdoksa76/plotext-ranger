@@ -15,7 +15,7 @@ Scripts depend on other python modules: sys, os and pillow.
 
 piv, piv2, pivgif and pivgif2 calculate aspect ratio transformation for plt.plotsize() and ajust it to my terminal size plt.ts().
 
-There is also script terminal-size.py, which gives for my terminal 206 character columns and 57 character rows. So I calculeted factor of correction 1.82 for my terminal as 55/57×206 which I round to 200. and then 200/(55×2)=1.82 (×2 because on eye to me it looks that character height size is almost double character widht size).
+There is also script terminal-size.py, which gives for my terminal 206 character columns and 57 character rows. So I calculeted factor of correction 1.82 for my terminal, as 55/57×206 I round to 200. and then 200/(55×2)=1.82 (×2 because on eye to me it looks that character height size is almost double character widht size) applied to line: new_width = int(terminal_height * original_width/original_height * 1.82).
 
 Why I did this?
 I have Orange Pi Zero with only 2 GB micro sd card. There is not possible to have desktop environment so I needed something for .jpg, .png, .bmp and .gif.
