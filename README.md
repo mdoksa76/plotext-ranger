@@ -20,3 +20,13 @@ There is also script terminal-size.py, which gives for my terminal 206 character
 Why I did this?
 I have Orange Pi Zero with only 2 GB micro sd card. There is not possible to have desktop environment so I needed something for .jpg, .png, .bmp and .gif.
 I used asciiview and cacaview and than I found piccolomo/plotext repository. In many cases plotext is better solution for terminal view of graphics files than asciiview or cacaview.
+
+How it looks in action?
+
+Bash terminal:
+![My Image](images/opi_zero_cli_wallpaper.png)
+
+<hr>
+
+tmux terminal:
+![My Image](images/opi_zero_lts-tmux.png)
