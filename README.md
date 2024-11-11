@@ -1,4 +1,4 @@
-# plotext-ranger and piv (plotext image viewer)
+# plotext-ranger, piv (plotext image viewer) and pivgif
 Plotext usage in ranger file manager for viewing graphics files and python scripts for showing images (jpg, png, bmp, tiff, ps, eps, gif) in terminal.
 
 Python scripts piv2 and pivgif2 are python scripts for showing graphics files in ranger file manager. piv and pivgif are good from command line and inside directory with using only graphic file name, for example: "piv sample.png" or "pivgif sample.gif". piv2 and pivgif2 need absolute path of graphic filefile.
